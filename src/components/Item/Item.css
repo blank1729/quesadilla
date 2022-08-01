@@ -1,0 +1,85 @@
+/* main */
+:root {
+    --item-radius: 14px;
+    --font-color: black;
+    --background-color: white;
+    --primary-color: white;
+    --shadow-color: rgb(114, 185, 235);
+
+}
+
+* {
+    font-family: monospace;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.menu {
+    max-width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.item {
+    margin: 20px;
+    border-radius: var(--item-radius);
+    background-color: var(--primary-color);
+}
+
+.item:hover {
+    box-shadow: 0 14px 28px var(--shadow-color);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    /* margin: 20px auto; */
+    border-radius: var(--item-radius) var(--item-radius) 0px 0px;
+}
+
+.discription {
+    padding: 15px;
+    border: 1px solid var(--shadow-color);
+    border-radius: 0 0 var(--item-radius) var(--item-radius);
+    border-top: none;
+}
+
+/* Name section */
+
+.name-section {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.add-button a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 1px solid #48595c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.add-button a:visited {
+    color: black;
+}
+
+.add-button a:hover {
+    
+}
+
+/* Price Section */
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    mar
+}
+
+

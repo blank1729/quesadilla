@@ -1,0 +1,57 @@
+:root {
+    --item-radius: 14px;
+    --font-color: black;
+    --background-color: white;
+    --primary-color: white;
+    --shadow-color: rgb(114, 185, 235);
+
+}
+
+.navbar {
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .navbar {
+        max-width: 70%;
+        margin: auto;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style: none;
+        /* border: 2px solid black; */
+        padding: 7px;
+        margin: 5px; 
+        border-radius: 7px;
+        border: 2px solid white;
+    }
+    
+    ul li:hover {
+        background-color: var(--shadow-color);
+        border: 2px solid var(--shadow-color);
+        box-shadow: 3px 3px 8px #a2a2a2;
+    }
+    
+    .discord {
+        background-color: #5865F2;   
+        color: white;
+    }
+    
+    .discord:hover {
+        background-color: white;
+        color: #5865F2;
+        border: 2px solid #5865F2;
+        border-radius: 7px;
+    }
+}
