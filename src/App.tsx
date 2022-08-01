@@ -32,8 +32,8 @@ function App() {
       price : 90,
     },
     {
-      name : "chapathi",
-      image : "https://source.unsplash.com/300x200/?paratha",
+      name : "Spagetti",
+      image : "https://source.unsplash.com/300x200/?spagetti",
       rating : 4.7,
       price : 60,
     },

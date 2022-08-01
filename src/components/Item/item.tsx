@@ -1,7 +1,8 @@
-import React from "react"
+import { FunctionComponent } from "react"
 import './Item.css'
 
-export default function Item(props) {
+
+export const Item: FunctionComponent = (props) => {
     return(
             <div className="item">
                 <img src={props.item.image} alt={props.item.name} width="300px" height="200px"/>
