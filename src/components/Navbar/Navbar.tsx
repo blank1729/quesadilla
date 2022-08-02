@@ -11,6 +11,7 @@ function Navbar(){
                 <h2 className="logo">QUESADILLA</h2>
                 <ul className="nav-items">
                     <li><a href="#">Home</a></li>
+                    <li><a href="">Menu</a></li>
                     <li><a href="">About</a></li>
                     <li className="discord">Join Waitlist</li>
                 </ul>

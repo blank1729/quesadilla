@@ -2,7 +2,7 @@ import { FunctionComponent } from "react"
 import './Item.css'
 
 
-export const Item: FunctionComponent = (props) => {
+const Item: FunctionComponent = (props) => {
     return(
             <div className="item">
                 <img src={props.item.image} alt={props.item.name} width="300px" height="200px"/>
@@ -19,3 +19,5 @@ export const Item: FunctionComponent = (props) => {
             </div>
     )
 }
+
+export default Item

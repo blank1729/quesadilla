@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Item from './components/Item/item'
+import Item from './components/Item/Item'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
@@ -41,7 +41,15 @@ function App() {
 
   return(
     <div className="container">
-      <Navbar/>
+      <Navbar />
+      <div className="main-section">
+        {/* <img src="https://source.unsplash.com/900x400/?restaurant" alt=""/> */}
+        <div>
+          <h1 className='heading'>QUASEDILLA HOME KITCHEN</h1>
+          <p className='sub-heading'><i>Open on Thursdays and Fridays</i></p>
+        </div>
+
+      </div>
       <div className="menu">
         {menu.map(item => <Item item={item} key={item.name}/>)}
       </div>
