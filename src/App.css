@@ -1,3 +1,52 @@
 .container {
+    max-width: 100%;
+}
+.menu {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-section {
+    width: 100%;
+    margin: ;
+
+}
+.main-section div {
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px) {
+    /* .main-section {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        background-image: url("https://source.unsplash.com/900x400/?plain%20wall");
+        text-align: center;
+        background-color: #4e6c92;
+        color: white;
+    }
+     */
+    .main-section img {
+        width: 100%;
+    }
+    .heading {
+        font-size: 4rem;
+    }
+    .sub-heading {
+        font-style: italic;
+    }
+    
+    .menu {
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
     
 }

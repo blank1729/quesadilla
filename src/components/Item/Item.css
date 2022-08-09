@@ -47,6 +47,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+@media screen and (max-width:425px) {
+    .menu {
+        max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+}
 
 .item {
     margin: 20px;
