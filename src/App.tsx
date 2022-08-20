@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Menu from './components/Menu'
+import Search from './pages/Search/Search'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return(
     <div className="container">
       <Navbar />
+      <Search/>
       <div className="main-section">
         {/* <img src="https://source.unsplash.com/900x400/?restaurant" alt=""/> */}
         <div>
