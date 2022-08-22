@@ -1,26 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Menu from './components/Menu'
-import Search from './pages/Search/Search'
+import Greeting from './components/Greeting/Greeting'
+import Item from './components/Item/Item'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const item = {
+    name: "Biryani",
+    price: 450,
+    rating: 4.8,
+    img: "https://source.unsplash.com/300x200/?Biryani"
+  }
   
+
 
   return(
     <div className="container">
       <Navbar />
-      <Search/>
-      <div className="main-section">
-        {/* <img src="https://source.unsplash.com/900x400/?restaurant" alt=""/> */}
-        <div>
-          <h1 className='heading'>QUASEDILLA HOME KITCHEN</h1>
-          <p className='sub-heading'><i>Open on Thursdays and Fridays</i></p>
-        </div>
-      </div>
-      <Menu />
+      <Greeting/>
+      <Item item={item}/>
     </div>
   )
 }

@@ -1,0 +1,22 @@
+
+
+
+
+@media screen and (min-width:768px) {
+    .greeting {
+        max-width: 70%;
+        height: 70vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid black; */
+        background-image: url('https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .greeting div {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}

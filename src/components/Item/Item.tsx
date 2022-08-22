@@ -2,10 +2,10 @@ import { FunctionComponent } from "react"
 import './Item.css'
 
 
-const Item: FunctionComponent = (props) => {
+const Item: FunctionComponent = (props: any) => {
     return(
             <div className="item">
-                <img src={props.item.image} alt={props.item.name} width="300px" height="200px"/>
+                <img src={props.item.img} alt={props.item.name} width="300px" height="200px"/>
                 <div className="discription">
                     <div className="name-section">
                         <h3>{props.item.name}</h3>
