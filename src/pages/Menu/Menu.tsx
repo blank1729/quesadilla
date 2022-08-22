@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Item from './Item/Item'
+import Item from '../../components/Item/Item'
 
 function Menu() {
   const [menu, setMenu] = useState([
