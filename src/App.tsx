@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Greeting from './components/Greeting/Greeting'
 import Item from './components/Item/Item'
+import Menu from './pages/Menu/Menu'
 
 function App() {
   const item = {
@@ -17,7 +18,7 @@ function App() {
     <div className="container">
       <Navbar />
       <Greeting/>
-      <Item item={item}/>
+      <Menu/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Item from '../../components/Item/Item'
+import './Menu.css'
 
 function Menu() {
   const [menu, setMenu] = useState([
@@ -35,9 +36,12 @@ function Menu() {
     },
   ])
   return (
-    <div className="menu">
+    <div className='menu' id="menu">
+      <h1>MENU</h1>
+      <div className="menu-items">
         {menu.map(item => <Item item={item} key={item.name}/>)}
       </div>
+    </div>
   )
 }
 

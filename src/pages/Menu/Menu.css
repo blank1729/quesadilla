@@ -1,0 +1,19 @@
+
+
+
+@media screen and (min-width: 768px) {
+    .menu {
+        max-width: 70%;
+        margin: auto;
+    }
+    .menu h1 {
+        padding: 10px;
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .menu-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { FaCartPlus, FaRegUserCircle } from 'react-icons/fa';
 import logoImg from '../../assets/logo.svg'
+import Menu from '../../pages/Menu/Menu';
 
 function Navbar(){
     // create a array using usestate to list elements that go into the nav-items
@@ -13,7 +14,7 @@ function Navbar(){
                 <nav>
                     <div className='nav-links'>
                         <span className='navl'>Home</span>
-                        <span className='navl'>Menu</span>
+                        <span className='navl'><a href="#menu">Menu</a></span>
                     </div>
                     <div className='nav-icons'>
                         <span className='navi profile'><FaRegUserCircle /></span>
