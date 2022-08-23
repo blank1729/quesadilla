@@ -17,7 +17,20 @@ function Navbar(){
                         <span className='navl'><a href="#menu">Menu</a></span>
                     </div>
                     <div className='nav-icons'>
-                        <span className='navi profile'><FaRegUserCircle /></span>
+                        <span className='navi profile prof-menu'>
+                        
+                            <span className='prof-icon'><FaRegUserCircle /></span>
+                            <div className='dropdown'>
+                                <ul>
+                                    <li>Profile</li>
+                                    <li>Orders</li>
+                                    <li><input type="checkbox" name="theme-tiggle" id="theme-tiggle" /></li>
+                                    <hr />
+                                    <li>LogOut</li>
+                                </ul>
+                            </div>
+                            
+                        </span>
                         <span className='navi cart'><FaCartPlus /><span>0</span></span>
                     </div>
                 </nav>
